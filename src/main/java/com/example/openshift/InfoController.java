@@ -11,7 +11,7 @@ public class InfoController {
     @Value("${spring.application.name:test-openshift}")
     private String appName;
 
-    @Value("${app.version:1.0.2}")
+    @Value("${app.version:1.0.3}")
     private String version;
 
     @GetMapping("/api/info")
